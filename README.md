@@ -4,6 +4,17 @@ Gradle
 ------
 This library was created just to import linkedin sdk through gradle through JitPack which helps in faster compilation.
 
+  allprojects {
+    repositories {
+          maven { url "https://jitpack.io" }
+    }
+  }
+
+
+  dependencies {
+       compile 'com.github.neurospeech:unofficial-linkedin-sdk-android:v1.1.4'
+  }
+
 LinkedIn's Mobile SDK for Android is an open-source library intended to reduce the 
 friction of integrating LinkedIn's data and services into your Android applications.
 
