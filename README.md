@@ -1,3 +1,9 @@
+Unofficial copy of LinkedIn source version 1.1.4 relased on November 2, 2015
+
+Gradle
+------
+This library was created just to import linkedin sdk through gradle through JitPack which helps in faster compilation.
+
 LinkedIn's Mobile SDK for Android is an open-source library intended to reduce the 
 friction of integrating LinkedIn's data and services into your Android applications.
 
